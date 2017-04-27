@@ -2,11 +2,37 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" charset="utf-8" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" media="screen" charset="utf-8" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Animals!</title>
   </head>
   <body>
+    <h1>Pick an animal!</h1>
+    <form id="animal">
+      <div class="radio">
+        <label>
+          <input type="radio" name="animal" value="Koala" checked>
+          Koala
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="animal" value="Platypus">
+          Platypus
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="animal" value="Kangaroo">
+          Kangaroo
+        </label>
+      </div>
+      <button type="submit" name="button">Submit</button>
+    </form>
     <div id="koala">
-      <img src="img/koala.jpg">
+      <img src="img/koala.jpg"width=30%>
       <p>The koala (Phascolarctos cinereus, or, inaccurately, koala bear[a]) is an arboreal herbivorous marsupial native to Australia. It is the only extant representative of the family Phascolarctidae and its closest living relatives are the wombats. The koala is found in coastal areas of the mainland's eastern and southern regions, inhabiting Queensland, New South Wales, Victoria, and South Australia. It is easily recognisable by its stout, tailless body and large head with round, fluffy ears and large, spoon-shaped nose. The koala has a body length of 60–85 cm (24–33 in) and weighs 4–15 kg (9–33 lb). Pelage colour ranges from silver grey to chocolate brown. Koalas from the northern populations are typically smaller and lighter in colour than their counterparts further south. These populations possibly are separate subspecies, but this is disputed.
       </p>
     </div>
@@ -16,7 +42,7 @@
       </p>
     </div>
     <div id="kangaroo">
-      <img src="img/roo.jpg">
+      <img src="img/roo.jpg"width=50%>
       <p>The kangaroo is a marsupial from the family Macropodidae (macropods, meaning "large foot"). In common use the term is used to describe the largest species from this family, especially those of the genus Macropus: the red kangaroo, antilopine kangaroo, eastern grey kangaroo, and western grey kangaroo.[1] Kangaroos are endemic to Australia. The Australian government estimates that 34.3 million kangaroos lived within the commercial harvest areas of Australia in 2011, up from 25.1 million one year earlier.[2]
       </p>
     </div>
